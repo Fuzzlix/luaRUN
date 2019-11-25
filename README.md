@@ -2,8 +2,7 @@
 
 A exe builder for Lua.
 
-Tested on windows using [TDM-gcc][http://tdm-gcc.tdragon.net/],  
-lua5.1, lua5.2, lua5.3 and luaJIT.
+Tested on windows using [TDM-gcc][], lua5.1, lua5.2, lua5.3 and luaJIT.
 
 The loader provides a global `arg` similar to the lua-cli.
 
@@ -21,3 +20,5 @@ a glue program on it. The resulting exe's are:
 Both dos and gui glue programs require lpeg.
 
 The gui glue program requires lpeg and iup.
+
+[TDM-gcc]: http://tdm-gcc.tdragon.net/,TDM-gcc
