@@ -2,11 +2,11 @@
 
 A exe builder for Lua.
 
-Tested on windows using [TDM-gcc][], lua5.1, lua5.2, lua5.3 and luaJIT.
+Tested on windows using [TDM-gcc][], [lua5.1][], [lua5.2][], [lua5.3][] and [luaJIT][].
 
 The loader provides a global `arg` similar to the lua-cli.
 
-The provided makefile compiles by default a dos and a windows stub and glues 
+The provided makefile compiles by default a dos and a windows stub and glues
 a glue program on it. The resulting exe's are:
 
 * a dos stub. It is named like `glueD53.exe`.  
@@ -21,4 +21,8 @@ Both dos and gui glue programs require lpeg.
 
 The gui glue program requires lpeg and iup.
 
-[TDM-gcc]: http://tdm-gcc.tdragon.net/,TDM-gcc
+[TDM-gcc]: http://tdm-gcc.tdragon.net/
+[lua5.1]:  http://www.lua.org/versions.html#5.1
+[lua5.2]:  http://www.lua.org/versions.html#5.2
+[lua5.3]:  http://www.lua.org/versions.html#5.3
+[luaJIT]:  http://luajit.org/
